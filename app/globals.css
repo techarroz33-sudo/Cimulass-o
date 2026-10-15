@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+:root {
+  --font-space-grotesk: 'Space Grotesk', sans-serif;
+  --font-lexend: 'Lexend', sans-serif;
+}
+
+body {
+  font-family: var(--font-lexend);
+  background-color: #05070B;
+  color: #DFE2EF;
+}
+
+h1, h2, h3, h4, .font-heading {
+  font-family: var(--font-space-grotesk);
+}
+
+/* Custom cyber scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0A0E17;
+}
+::-webkit-scrollbar-thumb {
+  background: #1E293B;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #00E5FF;
+}
+
+/* Glow effects */
+.glow-cyan {
+  box-shadow: 0 0 16px rgba(0, 229, 255, 0.25);
+}
+
+.glow-cyan-sm {
+  box-shadow: 0 0 8px rgba(0, 229, 255, 0.2);
+}
+
+.glow-cyan-lg {
+  box-shadow: 0 0 24px rgba(0, 229, 255, 0.35);
+}
+
+.glow-emerald {
+  box-shadow: 0 0 14px rgba(16, 185, 129, 0.25);
+}
+
+.text-glow-cyan {
+  text-shadow: 0 0 8px rgba(0, 229, 255, 0.5);
+}

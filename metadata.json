@@ -1,0 +1,6 @@
+{
+  "name": "Cimulassão - Portal de Simulados e Vestibulares",
+  "description": "Plataforma de simulados de alta performance para ENEM, FUVEST, UNICAMP, UNESP, OBMEP, OBA, OBF, SISU e Provão Paulista com gabarito comentado e estatísticas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
